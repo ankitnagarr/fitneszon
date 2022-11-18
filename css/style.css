@@ -1,0 +1,780 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+header {
+    width: 100%;
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem;
+}
+
+
+.container {
+    max-width: 1200px;
+    /*background-color: yellow;  */
+    margin: 0 auto;
+}
+
+.top{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bar{
+    display: none;
+}
+
+.inner {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.inner img{
+    width: 110px;
+}
+
+
+
+.inner ul {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.nav-button {
+    color: white;
+    background-color: #f61b55;
+    font-weight: 600;
+    border: none;
+    padding: 1.1rem 1.1rem;
+    border-radius: 4px;
+    font-family: 'rubik', sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+}
+
+
+.banner-heading {
+    text-align: right;
+    background-color: tomato;
+}
+
+.right-heading {
+    color: white;
+    padding-top: 5rem;
+    margin-left: auto;
+}
+
+.right-heading h1 {
+    font-size: 11rem;
+    line-height: 0.9;
+}
+
+.right-heading h3 {
+    font-size: 6rem;
+    line-height: 0.8;
+}
+
+.right-heading .right-button {
+    color: white;
+    background-color: #f61b55;
+    font-weight: 500;
+    padding: 0.8rem 0.8rem;
+    border: none;
+    margin-top: 2rem; 
+    border-radius: 4px;
+    font-family: 'rubik', sans-serif;
+    cursor: pointer;
+
+}
+
+/* fitnes club box*/
+
+.second{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
+.left {
+    width: 45%;
+    line-height: 1.6;
+}
+
+.left h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.left .left-button {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #f61b55;
+    font-weight: 500;
+    border: none;
+    padding: 1.1rem 1.1rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.left p {
+    margin-top: 0.8rem;
+    font-size: 16px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right-imgage {
+    width: 45%;
+
+}
+
+
+.right-imgage img {
+    width: 100%;
+}
+
+
+/* fitnes club box end*/
+
+/*thrid box fitnes class-end*/
+
+
+.fitnessclass-box {
+    background: #f5f5f5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+
+}
+
+.threeimage-box {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+
+}
+
+.fitnessclass-box img {
+    width: 100%;
+}
+
+
+
+.fitnessclass-box h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 4rem;
+}
+
+.threeimage-box h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+
+.threeimage-box p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: gray;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/*thrid box fitnes class box-end*/
+
+/*fourth box our service box*/
+
+
+
+.ourservice-box {
+    width: 100%;
+    background-image: url(../images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imageicon-box {
+    width: 60%;
+    background-color: #c6c3c417;
+    margin-left: auto;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    padding-left: 6rem;
+}
+
+.imageicon-box h3 {
+    text-align: center;
+    color: white;
+    font-size:2.3rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+    text-align: left;
+    margin-left: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
+.imageicon-box h5 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.imageicon-box p {
+    color:  #c3adad;
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-size: 1.1rem;
+}
+
+.traning-box {
+   max-width: 600px;
+    display: flex;
+    /*background-color: turquoise;*/
+    padding-bottom: 2rem;
+   
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+.traning-box .personal-box {
+    margin-left: 2rem;
+}
+
+/*fourth box our service box end*/
+
+/* fifth box our fitness box */
+
+.fitness-box {
+    width: 100%;
+    /* background: springgreen;*/
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+
+
+.fitness-box h3 {
+    margin-bottom: 4rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+
+}
+
+
+.fourimage-box {
+    width: 20%;
+    /* background-color: yellowgreen;*/
+
+}
+
+.fourimage-box img {
+    width: 100%;
+}
+
+.bottom-box {
+    background: #f5f5f5;
+    position: relative;
+    padding: 2rem;
+    bottom: 4rem;
+    margin: 1rem;
+
+}
+
+.fourimage-box .bottom-box h5:hover {
+    color: #f61b55;
+}
+
+.fourimage-box .bottom-box h5 {
+    color: black;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Rubik", sans-serif;
+}
+
+.fourimage-box .bottom-box h6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: gray;
+    margin-top: 0.7rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* fifth box our fitness box END */
+
+/*sixth box discount image box */
+
+.discountimage-box {
+
+    background-image: url(../images/frined-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.center {
+    padding: 4rem;
+}
+
+.discountimage-box .center h3 {
+    font-size: 2.3rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+
+.discountimage-box .center p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.center .join-button {
+    font-family: "Rubik", sans-serif;
+    color: white;
+    background-color: #f61b55;
+    font-weight: 500;
+    border: none;
+    padding: 1.1rem 1.1rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*sixth box discount image box end */
+
+/* last  box*/
+
+
+.last{
+    align-items: unset;
+}
+
+.last-box {
+    background-color: #f5f5f5;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.aboutus-box {
+    width: 25%;
+    /*background-color: aqua;*/
+    ;
+}
+
+.contactus-box {
+    width: 25%;
+    /* background-color: cadetblue;*/
+}
+
+.newsletter-box {
+    width: 40%;
+    /*background-color: springgreen;*/
+}
+
+.last-box h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+
+.last-box h2 {
+    color: #f61b55;
+    margin-top: 1rem;
+
+}
+
+.last-box p {
+    line-height: 1.4;
+    margin-top: 1rem;
+    color: gray;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#email {
+    width: 90%;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* last  box end*/
+
+/* footer-box  box*/
+
+.footer-box {
+    background-color: #f5f5f5;
+    padding: 3rem;
+    margin: 0 auto;
+
+}
+
+.footer-box .copyright-box p {
+    color: gray;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.footer-box .copyright-box span {
+    color: rgba(128, 128, 128, 0.34);
+}
+
+
+
+.copyright-box{
+    width: 100%;
+    text-align: center;
+}
+
+.icon-box{
+    width: 100%;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.icon-box span {
+    margin-left: 2rem;
+    color: black;
+    font-size: x-large;
+    border-color: lightgray;
+}
+
+
+
+/*Media query starts*/
+
+/* fitnes club box*/
+
+
+@media only screen and (max-width: 800px) {
+    .inner ul{
+        display: none;
+        position: absolute;
+       text-align: center;
+    top: 64px;
+    width: 100%;
+    background: white;
+    padding: 2rem;
+    }
+
+    .nav-button{ 
+        display: none;
+    }
+
+    .bar{
+        display: block;
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+   ul li  a {
+        margin-top: 1rem;
+        display: block;
+    }
+}
+
+
+
+@media only screen and (max-width: 960px) {
+
+    .left {
+        width: 85%;
+        /* background-color: turquoise; */
+        line-height: 1.6;
+        margin-top: 5rem;
+        margin-top: 1rem;
+        margin: 0 auto;
+        padding-top: 3rem;
+    }
+
+    .fourimage-box .bottom-box h5:hover {
+        color: #f61b55;
+    }
+
+
+    .right-imgage {
+        width: 85%;
+        margin-top: 3rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .threeimage-box {
+        width: 45%;
+        margin-bottom: 2rem;
+    }
+
+    .threeimage-box p {
+        font-size: 1rem;
+    }
+
+    .fourimage-box {
+        width: 40%;
+        /* margin: 0; */
+        margin: 0 auto;
+    }
+
+    .imageicon-box {
+        /* width: 60%; */
+        padding-left: 2rem;
+        margin-left: auto;
+    }
+
+    .traning-box {
+
+        margin: 0 auto;
+    }
+
+    .aboutus-box {
+        width: 95%;
+        /* background-color: aqua; */
+        margin: 0 auto;
+    }
+
+    .contactus-box {
+        width: 95%;
+        /* background-color: aqua; */
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .newsletter-box {
+        width: 95%;
+        /* background-color: aqua; */
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 500px){
+
+    .ourserviceimg-box {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .personal-box {
+        width: 100%;
+    }
+
+    .traning-box{
+        flex-wrap: wrap;
+    }
+
+
+    .traning-box .personal-box {
+        margin-top: 3rem;
+    }
+
+    .imageicon-box h3{
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+    .imageicon-box{
+        width: 100%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .right-heading h1 {
+        font-size: 5rem;
+    }
+
+    .right-heading h3 {
+        font-size: 3rem;
+    }
+
+    
+
+    .left {
+        width: 85%;
+        /* background-color: turquoise; */
+        line-height: 1.6;
+        margin-top: 5rem;
+        margin-top: 1rem;
+        margin: 0 auto;
+        padding-top: 3rem;
+    }
+    
+    .left h2 {
+     font-size: 2.6rem;
+
+    }
+    .left p {
+        margin-top: 0.8rem;
+        font-size: 1.2rem;
+        color: gray;
+    }
+
+
+
+
+    .fourimage-box .bottom-box h5:hover {
+        color: #f61b55;
+    }
+
+
+    .right-imgage {
+        width: 85%;
+        margin-top: 3rem;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .fitness-box h3 {
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+        font-size: 2.2rem;
+    }
+
+    .threeimage-box {
+        width: 85%;
+        margin-bottom: 2rem;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+
+    .fourimage-box {
+        width: 85%;
+    }
+
+    .threeimage-box p {
+        font-size: 1.3rem;
+    }
+
+    .threeimage-box h5 {
+        font-size: 1.4rem;
+    }
+
+    .fourimage-box .bottom-box h5 {
+        font-weight: 500;
+        font-size: 1.3rem;
+
+    }
+
+    .fourimage-box .bottom-box h6 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        color: gray;
+    }
+
+    /*footer-box media query*/
+
+    .aboutus-box {
+        width: 85%;
+        margin: 0 auto;
+
+    }
+
+    .contactus-box {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .newsletter-box {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .last-box h4 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-family: "Rubik", sans-serif;
+    }
+
+    .last-box p {
+        line-height: 1.4;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.5;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .last-box h2 {
+        font-size: 1.9rem;
+    }
+
+    #email{
+        font-size: 1.3rem;
+    }
+
+
+}
